@@ -1,8 +1,49 @@
+//1
 #include <iostream>
 using namespace std;
 
 int main() {
  cout << "5 + 3" << '\n'; 
+ 
+ return 0;
+}
+
+
+//2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+ int spoznienia_daniela;
+
+ spoznienia_daniela = 5 + 3;
+ cout << spoznienia_daniela << '\n'; 
+ 
+ return 0;
+}
+
+
+
+
+//3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+ int spoznienia_daniela;
+
+ cin >> spoznienia_daniela; //9
+ 
+ spoznienia_daniela = spoznienia_daniela + 2;
+ 
+// spoznienia_daniela += 2;
+ 
+// ++spoznienia_daniela;
+// ++spoznienia_daniela;
+ 
+ cout << spoznienia_daniela << '\n'; 
  
  return 0;
 }
