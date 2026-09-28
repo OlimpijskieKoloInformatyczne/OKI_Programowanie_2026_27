@@ -48,3 +48,24 @@ int main() {
  return 0;
 }
 
+
+
+
+#5
+#include <iostream>
+using namespace std;
+
+int main() {
+ int spoznienia_daniela, wynik_dzielnia, reszta;
+
+ cin >> spoznienia_daniela; //16
+
+ wynik_dzielnia = spoznienia_daniela / 5;  
+ reszta = spoznienia_daniela % 5;  
+
+
+ cout << wynik_dzielnia << ' ' << reszta << '\n'; 
+ 
+ return 0;
+}
+
