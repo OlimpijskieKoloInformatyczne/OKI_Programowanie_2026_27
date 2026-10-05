@@ -12,3 +12,35 @@ int main() {
     
  return 0;
 }
+
+//Program #2
+#include <iostream>
+using namespace std;
+
+int main() {
+ int wzrost;
+
+ cin >> wzrost;
+ 
+ if (wzrost < 120) {
+    cout << "za niski" << '\n'; 
+    return 0;
+ }
+
+//jesli tu jestem to osoba ma 120 cm lub wiecej 
+ if (wzrost == 120) {
+    cout << "WOW! Udalo sie!" << '\n'; 
+    cout << "Mozesz jechac z rodzicami!" << '\n'; 
+    return 0;
+ }
+
+//jesli tu jestem to osoba ma ponad 120 cm 
+ if (wzrost <= 140) { //między 121 a 140 wlacznie
+    cout << "Przejazd tylko z opiekunem" << '\n'; 
+    return 0;
+ }
+
+//jesli tu jestem to osoba ma ponad 140 cm 
+ cout << "Wspanialych wrazen!" << '\n'; 
+ return 0;
+}
